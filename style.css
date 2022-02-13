@@ -1,0 +1,40 @@
+.rasm {
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 12px 20px 14px rgba(0, 0, 0, 0.30);
+    margin-left: 10px;
+}
+
+body {
+    background-color: rgb(252, 255, 236);
+    max-width: 700px;
+    min-width: 380px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ism {
+    display: flex;
+    text-align: center;
+    text-shadow: 12px 20px 14px rgba(0, 0, 0, 0.30);
+    margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+    .ism {
+        text-align: center;
+        display: block;
+    }
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 12px 20px 14px rgba(0, 0, 0, 0.30);
+}
+
+.bio {
+    background-color: rgb(141, 113, 179);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
